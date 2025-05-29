@@ -2,5 +2,11 @@ name: La Ciudad RP
 description: Servidor Roleplay completo con drogas, negocios, autos reales y más.
 tasks:
   - action: download_github
+    src: https://github.com/lacapitalrp/la-ciudad-rp
+    dest: ./resources/la-ciudad-rp
+  - action: download_github
     src: https://github.com/qbcore-framework/qb-core
     dest: ./resources/[qb]/qb-core
+  - action: copy
+    src: ./resources/la-ciudad-rp/server.cfg
+    dest: ./server.cfg
