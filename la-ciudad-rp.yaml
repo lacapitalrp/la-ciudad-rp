@@ -1,12 +1,34 @@
 name: La Ciudad RP
-description: Servidor Roleplay completo con drogas, negocios, autos reales y más.
+description: Servidor Roleplay estilo Cuba con negocios, drogas, bancos, autos reales y más.
 tasks:
-  - action: download_github
-    src: https://github.com/lacapitalrp/la-ciudad-rp
-    dest: ./resources/la-ciudad-rp
   - action: download_github
     src: https://github.com/qbcore-framework/qb-core
     dest: ./resources/[qb]/qb-core
-  - action: copy
-    src: ./resources/la-ciudad-rp/server.cfg
-    dest: ./server.cfg
+
+  - action: download_github
+    src: https://github.com/qbcore-framework/qb-policejob
+    dest: ./resources/[qb]/qb-policejob
+
+  - action: download_github
+    src: https://github.com/qbcore-framework/qb-ambulancejob
+    dest: ./resources/[qb]/qb-ambulancejob
+
+  - action: download_github
+    src: https://github.com/qbcore-framework/qb-banking
+    dest: ./resources/[qb]/qb-banking
+
+  - action: download_github
+    src: https://github.com/qbcore-framework/qb-management
+    dest: ./resources/[qb]/qb-management
+
+  - action: download_github
+    src: https://github.com/qbcore-framework/qb-shops
+    dest: ./resources/[qb]/qb-shops
+
+  - action: download_github
+    src: https://github.com/qbcore-framework/qb-weapons
+    dest: ./resources/[qb]/qb-weapons
+
+  - action: download_github
+    src: https://github.com/qbcore-framework/qb-garages
+    dest: ./resou
