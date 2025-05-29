@@ -4,6 +4,3 @@ tasks:
   - action: download_github
     src: https://github.com/qbcore-framework/qb-core
     dest: ./resources/[qb]/qb-core
-  - action: set_server_config
-    server_name: La Ciudad RP
-    locale: es
